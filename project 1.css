@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif ;
+}
+
+body{
+    background: #081b29;
+    color: white;
+
+}
+.A{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    background-color: transparent;
+    color: white;
+    justify-content: space-between ;
+    align-items: center;
+    font-size:larger;
+    position: fixed; 
+    top: 0px;
+    left: 0;
+    padding: 20px 10%;
+    align-items: center;
+    z-index: 100;
+   background: #081b29;
+    
+    
+
+
+}
+.a1 a{
+ font-size: 20px;
+ color: white;
+ text-decoration: none;
+ font-weight: 500;
+ margin-left: 30px;
+ transition: 1s;
+}
+.a1 a:hover,
+.a1 a.home{
+ color: aquamarine;
+
+}
+.home1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home2{
+    
+    max-width: 600px;
+}
+.home2 p {
+font-size: 16px;
+margin: 20px 0 40px;
+}
+.home2.btn-box{
+    width:345px ;
+    height: 50px;
+    background-color: aquamarine;
+}
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    width: 250px;
+    height: 35px;
+    /* background-color: aquamarine; */
+      border: 2px solid aquamarine;
+    border-radius: 10px;
+    font-size: 19px;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: white;
+}
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:black;
+    z-index: -1;
+    transition: .4s;
+  
+}
+.btn-box a:hover::before{
+ width: 100%;
+ color: white;
+}
+.a3{
+    position: absolute;
+    bottom: 180px;
+    width: 180px;
+    /* background: red; */
+    /* font-size: 45px; */
+    /* font-weight: 500; */
+    transition: 1s;
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.a3 a{
+    position: relative;
+    display:inline-flex ;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aquamarine;
+    border-radius: 50%;
+    color: aquamarine;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+       overflow: hidden;
+}
+.a3 a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    z-index: -1;
+    transition: .5s;
+ 
+}
+.a3 a:hover::before{
+    width: 100%;
+}
+.B{
+   margin-left: 20%;
+   margin-top: 200px;
+   font-size: 40px;
+}
+.b1 img{
+    width: 350px;
+    height:350px;
+    position:relative ;
+    left: 650px;
+    bottom: 750px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.c1 h2{
+   display: flex;
+   justify-content: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 50px;
+
+}
+.c1 h5{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: aquamarine;
+}
+.c1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.c1 button{
+   margin-left: 300px;
+   font-size: 30px;
+   border-radius: 20px;
+   margin-top: 40px;
+   background-color: aquamarine;
+   height: 80px;
+   width: 150px;
+}
+.c1 button:hover{
+    background-color:black;
+    color: white;
+    overflow: hidden;
+    
+}
+.C{
+width: 100%;
+padding: 100px 0px;
+/* background: red; */
+position: relative;
+bottom: 700px;
+height: 650px;
+max-width: 800px;
+margin-left: 400px;
+border:1px solid aquamarine;
+border-radius: 20px;
+}
+
+.skills{
+    /* background-color:blue ; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top:150px;
+    /* right: 400px; */
+}
+.shamil{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size:50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.html{
+ height: 350px;
+ width: 350px;
+ /* color:aquamarine; */
+ border: 1px solid aquamarine;
+ border-radius: 10px;
+ padding: 30px ;
+ font-size: 20px;
+ position: relative;
+ right: 300px;
+
+}
+.html h3{
+    color:rgba(26, 96, 108, 0.945);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.html:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid aquamarine;
+}
+.css{
+height: 350px;
+ width: 350px;
+ border: 1px solid aquamarine;
+  border-radius: 10px;
+  padding: 30px ;
+ font-size: 20px;
+ position: relative;
+ right: 50px;
+
+}
+.css h3{
+    display: flex;
+    justify-content: center;
+    color:rgba(26, 96, 108, 0.945);
+    font-size: 30px;
+     position: relative;
+    bottom: 20px;
+}
+.css:hover{
+   background-color: white;
+    color: black;
+    border: 3px solid aquamarine;
+}
+.js{
+height: 350px;
+ width: 350px;
+ border: 1px solid aquamarine;
+  border-radius: 10px;
+  padding: 30px ;
+ font-size: 20px;
+ position: relative;
+left: 180px;
+}  
+.js h3{
+  display: flex;
+    justify-content: center;
+    color:rgba(26, 96, 108, 0.945);
+    font-size: 30px;
+     position: relative;
+    bottom: 20px;
+}  
+.js:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid aquamarine;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    padding:50px ;
+}
+.form h1{
+    font-size: 50px;
+   position: relative;
+   bottom: 100px;
+   left: 40px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.input{
+    height: 80px;
+}
+.form i{
+ font-size: 35px;
+ 
+ 
+}
+.form button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 100px;
+    border-radius: 60px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 2px solid black;
+
+}
+.form button:hover{
+    background-color:black;
+    color: white;
+    border-radius: 60px;
+    border: 1px solid aquamarine;
+}
+/* @media(max-width:900px){
+    .A{
+        grid-template-areas: 
+        "header"
+        /* "hero" */
+        "main"
+        "sidebar"
+        "footer";
+        grid-template-columns: 1fr;
+    }
+}
+ */
